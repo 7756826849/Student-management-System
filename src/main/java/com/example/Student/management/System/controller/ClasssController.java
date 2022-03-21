@@ -28,6 +28,6 @@ public class ClasssController {
 		public ResponseEntity<Classs> saveClasss(@RequestBody Classs cs) {
 			return new ResponseEntity<Classs> (css.saveClasss(cs),HttpStatus.CREATED);
 		}
-	}
+	
 
 }
