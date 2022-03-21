@@ -12,6 +12,7 @@ import com.example.Student.management.System.entity.Student;
 public class StudentManagementSystemApplication implements CommandLineRunner {
 //thamb taklya
 	// baghital
+	//jinkle
 	public static void main(String[] args) {
 		SpringApplication.run(StudentManagementSystemApplication.class, args);
 	}
