@@ -22,6 +22,18 @@ public class School {
 		@Column(name="addres")
 		private String addres;
 
+		public School() {
+			super();
+			// TODO Auto-generated constructor stub
+		}
+
+		public School(long id, String schName, String addres) {
+			super();
+			this.id = id;
+			this.schName = schName;
+			this.addres = addres;
+		}
+
 		public long getId() {
 			return id;
 		}
