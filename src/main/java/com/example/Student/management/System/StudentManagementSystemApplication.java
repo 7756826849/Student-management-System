@@ -10,7 +10,7 @@ import com.example.Student.management.System.entity.Student;
 
 @SpringBootApplication
 public class StudentManagementSystemApplication implements CommandLineRunner {
-
+//thamb taklya
 	public static void main(String[] args) {
 		SpringApplication.run(StudentManagementSystemApplication.class, args);
 	}
